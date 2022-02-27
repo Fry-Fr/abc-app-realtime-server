@@ -21,5 +21,5 @@ io.on("connection", (socket) => {
     })
 })
 
-io.listen(process.env.SOCKETPORT || 3333);
+io.listen(process.env.PORT || 3333);
 console.log(`**listening on port ${process.env.PORT || 3333}`)

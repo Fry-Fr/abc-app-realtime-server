@@ -3,7 +3,7 @@ const { Server } = require('socket.io');
 
 const clients = require('./clients');
 
-const io = new Server({cors: '*'});
+const io = new Server({cors: 'https://abc-game.vercel.app/'});
 
 io.on("connection", (socket) => {
 

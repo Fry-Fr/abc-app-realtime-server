@@ -5,7 +5,7 @@ const clients = require('./clients');
 
 const io = new Server({
     cors: {
-        origin: 'https://abc-game.vercel.app/',
+        origin: 'https://abc-game.vercel.app',
         methods: ["GET", "POST"]
     }
 });
